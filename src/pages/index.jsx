@@ -98,6 +98,7 @@ const ServiceImage = styled.div`
   }
 `;
 
+
 const ServiceText = styled.div`
   flex-basis: calc(99.9% * 3 / 7 - 5rem);
   max-width: calc(99.9% * 3 / 7 - 5rem);
@@ -165,24 +166,21 @@ const IndexPage = ({
     </Wrapper>
     <PrimaryBG>
       <Wrapper flexDirection="column" p={4} mx="auto">
-        {/* 
+        
         <Flex w={1} py={5} justifyContent="space-between" flexWrap="wrap">
           <ServiceImage>
             <img src={BeTheHero} alt="Be The Hero" />
           </ServiceImage>
           <ServiceText>
-            <h2>Be your own hero</h2>
+            <h2>di balik latar</h2>
             <p>
-              Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
-              blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language
-              ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia. It is
-              a paradisematic country, in which roasted parts of sentences fly into your mouth.
+              Dimulai dari kebingungan seorang mahasiswa matematika yang hanya bisa coding java dasar dengan algoritma-algoritma bermodal dari Cracking the Coding Interview, diapun nekat untuk masuk ke dalam lembah per-KP-an untuk mencari jati dirinya. Tersesat dan kebingungan ia ketika terjatuh ke dalam jurang Java Spring Boot. Tidak ingin para penerusnya ikut masuk ke dalam lubang yang sama sentralisasi data pun dibuat demi harkat dan martabat mahasiswa eksak. <i>enggak deng.</i>
             </p>
-            <ul>
-              <li>Service Super</li>
-              <li>Great Offer</li>
-              <li>Item Wrap</li>
-            </ul>
+               <ul>
+                <li>matematika itu gak hanya angka.</ li>
+                <li>knowing the unknowns.</ li>
+                <li>oh jurusan matematika? mau jadi <s>dosen</s> <s>jago ngitung</s> dan <b>tumbuh-tumbuhan lainnya</b></ li>
+              </ul>
           </ServiceText>
         </Flex>
         <Flex w={1} py={5} justifyContent="space-between" flexDirection="row-reverse" flexWrap="wrap">
@@ -190,37 +188,20 @@ const IndexPage = ({
             <img src={DataReport} alt="Data Report" />
           </ServiceImage>
           <ServiceText>
-            <h2>We love charts!</h2>
+            <h2>made with 💗</h2>
             <p>
-              Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
-              blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language
-              ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia.
+              Definisi 💗: 
             </p>
             <ul>
-              <li>Service Super</li>
-              <li>Great Offer</li>
-              <li>Item Wrap</li>
+              <li>gatsby.js sebagai tulang belakang keluarga</li>
+              <li>next.js sebagai serverless render</li>
+              <li>emotion.js buat styling, <small>karena SASS sudah terlalu mainstream</small></li>
+              <li>GraphQL</li>
+              <li><a href="https://svmihar-blog.ga/blog/website-kp/">Lengkapnya</a></li>
             </ul>
           </ServiceText>
         </Flex>
-        <Flex w={1} py={5} justifyContent="space-between" flexWrap="wrap">
-          <ServiceImage>
-            <img src={MayTheForce} alt="May the Force" />
-          </ServiceImage>
-          <ServiceText>
-            <h2>May the force be with you</h2>
-            <p>
-              Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the
-              blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language
-              ocean.
-            </p>
-            <ul>
-              <li>Service Super</li>
-              <li>Great Offer</li>
-            </ul>
-          </ServiceText>
-        </Flex>
-         */}
+         
       </Wrapper>
     </PrimaryBG>
     <Contact px={4} py={6} justifyContent="center" alignItems="center" flexDirection="column">
@@ -241,7 +222,7 @@ IndexPage.propTypes = {
   }).isRequired,
 };
 
-/* gak pake eslint. bodo amat. graphql mirip peler anjir. */
+/* gak pake eslint. bodo amat. */
 export const pageQuery = graphql`
   query IndexQuery {
     caseStudies: allPrismicCaseStudy(sort: { fields: [last_publication_date], order: DESC }) {
