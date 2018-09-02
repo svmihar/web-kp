@@ -144,7 +144,7 @@ const IndexPage = ({
 }) => (
   <React.Fragment>
     <Header>
-      <Logo>sugen rawuh</Logo>
+      <Logo>sugeng rawuh</Logo>
       <Hero justifyContent="center" alignItems="center" flexDirection="column">
         <h1>
          Koleksi KP Matematika ITS 2015.
