@@ -19,7 +19,7 @@ module.exports = {
       resolve: 'gatsby-source-prismic',
       options: {
         repositoryName: 'webkp',
-        accessToken: `${process.env.API_KEY}`,
+        accessToken: `MC5XNEY3d3lNQUFDUUFtWERF.YgLvv71pcX3vv73vv70q77-9QhkT77-9Ve-_ve-_ve-_ve-_vRnvv73vv70G77-977-9T--_ve-_vUHvv73vv70Y`,
         linkResolver: ({ node, key, value }) => doc => `/${doc.uid}`,
         htmlSerializer: ({ node, key, value }) => (type, element, content, children) => {
           // Your HTML serializer
