@@ -174,11 +174,11 @@ const IndexPage = ({
           <ServiceText>
             <h2>di balik latar</h2>
             <p>
-              Dimulai dari kebingungan seorang mahasiswa matematika yang hanya bisa coding java dasar dengan algoritma-algoritma bermodal dari Cracking the Coding Interview, diapun nekat untuk masuk ke dalam lembah per-KP-an untuk mencari jati dirinya. Tersesat dan kebingungan ia ketika terjatuh ke dalam jurang Java Spring Boot. Tidak ingin para penerusnya ikut masuk ke dalam lubang yang sama sentralisasi data pun dibuat demi harkat dan martabat mahasiswa eksak. <i>enggak deng.</i>
+              Ditujukan untuk membuktikan kalau: 
             </p>
                <ul>
                 <li>matematika itu gak hanya angka.</ li>
-                <li>knowing the unknowns.</ li>
+                <li>mengetahui apa yang tidak diketahui.</ li>
                 <li>oh jurusan matematika? mau jadi <s>dosen</s> <s>jago ngitung</s> dan <b>tumbuh-tumbuhan lainnya</b></ li>
               </ul>
           </ServiceText>
@@ -200,8 +200,16 @@ const IndexPage = ({
               <li><a href="https://svmihar-blog.ga/blog/website-kp/">Lengkapnya</a></li>
             </ul>
           </ServiceText>
-        </Flex>
          
+        </Flex>
+         <Flex w={1} py={5} justifyContent="center" flexDirection="row-reverse" flexWrap="wrap">
+         <ServiceText >
+            <h2>sedikit disclaimer</h2>
+            <p>
+              seluruh konten merupakan tanggung jawab dari masing-masing pengirim dan penulis kontennya, bukan tanggung jawab dari pembuat websitenya. 
+            </p>
+          </ServiceText>
+         </Flex>
       </Wrapper>
     </PrimaryBG>
     <Contact px={4} py={6} justifyContent="center" alignItems="center" flexDirection="column">
